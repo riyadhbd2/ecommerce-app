@@ -4,7 +4,6 @@ import { Link } from 'react-router-dom';
 
 const ProductsItem = ({id, image, name, price}) => {
 
-    console.log(id);
 
     const {currency} = useContext(ShopContext);
 
